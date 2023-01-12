@@ -31,34 +31,82 @@ Python
 - Linux / Unix
 
 ```bash
-    1  ls
-    2  ls -l
-    3  ls -l -h
-    4  man ls
-    5  help ls
-    6  ls --help
-    7  LS
-    8  ls -l
-    9  ls -lh 
-   10  # is this a comment?
-   11  mkdir data
-   12  mkdir data/raw
-   13  mkdir data/raw/european-commission
-   14  cd data/
-   15  ls
-   16  ls -l
-   17  cd raw/european-commission/
-   18  ls
-   19  curl --help
-   20  curl https://github.com/codedthinking/tender-home-bias/releases/download/v1.0/ted-sample.csv
-   21  curl https://github.com/codedthinking/tender-home-bias/releases/download/v1.0/ted-sample.csv
-   22  curl -o ted-sample.csv https://github.com/codedthinking/tender-home-bias/releases/download/v1.0/ted-sample.csv
-   23  ls -l
-   24  curl -oL ted-sample.csv https://github.com/codedthinking/tender-home-bias/releases/download/v1.0/ted-sample.csv
-   25  curl -Lo ted-sample.csv https://github.com/codedthinking/tender-home-bias/releases/download/v1.0/ted-sample.csv
-   26  history
-   27  history > history-2023-01-10.txt
+ls
+ls -l
+ls -l -h
+man ls
+help ls
+ls --help
+LS
+ls -l
+ls -lh 
+# is this a comment?
+mkdir data
+mkdir data/raw
+mkdir data/raw/european-commission
+cd data/
+ls
+ls -l
+cd raw/european-commission/
+ls
+curl --help
+curl https://github.com/codedthinking/tender-home-bias/releases/download/v1.0/ted-sample.csv
+curl https://github.com/codedthinking/tender-home-bias/releases/download/v1.0/ted-sample.csv
+curl -o ted-sample.csv https://github.com/codedthinking/tender-home-bias/releases/download/v1.0/ted-sample.csv
+ls -l
+curl -oL ted-sample.csv https://github.com/codedthinking/tender-home-bias/releases/download/v1.0/ted-sample.csv
+curl -Lo ted-sample.csv https://github.com/codedthinking/tender-home-bias/releases/download/v1.0/ted-sample.csv
+history
+history > history-2023-01-10.txt
 ```
+- [ ] write code that removes line numbers from [bash]() history
+
+The name of the virtual machine includes the username!
+- [ ] Point to different shells, fish, Fig
+
+### Special folder names
+```
+.
+..
+~
+/
+```
+
+absolute vs relative path
+
+- [ ] some content on HTML
+- [ ] keep full history on replit
+- no "less" on replit
+
+This is, unfortunately, only the last couple of commands
+```bash
+curl -L https://github.com/codedthinking/tender-home-bias/releases/download/v1.0/country-codes.csv
+curl -L https://github.com/codedthinking/tender-home-bias/releases/download/v1.0/coun
+curl https://www.scrapethissite.com/pages/simple/
+curl -o data/raw/scrapethissite.html  https://www.scrapethissite.com/pages/simple/
+ls -hal data/raw/
+curl -o data/raw/datahub/country-codes.csv https://github.com/codedthinking/tender-home-bias/releases/download/v1.0/country-codes.csv
+curl -Lo data/raw/datahub/country-codes.csv https://github.com/codedthinking/tender-home-bias/releases/download/v1.0/country-codes.csv
+curl -Lo data/raw/scrapethissite.html  https://www.scrapethissite.com/pages/simple/
+cd data/raw/european-commission/
+less ted-sample.csv 
+head ted-sample.csv 
+head --help
+head -n 2 ted-sample.csv 
+ls -hal 
+ls -hal ted-sample.csv 
+wc ted-sample.csv 
+wc
+wc
+wc ted-sample.csv 
+wc --help
+wc -l ted-sample.csv 
+cd
+cd Unit1/
+history
+history > history.txt
+```
+
 ### Git
 ### Python
 ### Stata
